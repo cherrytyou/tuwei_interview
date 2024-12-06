@@ -1,0 +1,6 @@
+容器化：使用 Docker 创建你的测试工具镜像，确保包含所有运行自动化测试所需的依赖项。
+查看Dockerfile
+
+构建和运行
+docker build -t g123-testing-tool .
+docker run g123-testing-tool
